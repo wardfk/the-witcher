@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: black;    
+    display: flex;
+    margin: 50px 20px;
+    border-color: white;
+    flex-flow: column;
+}
+
+#main{
+    display: flex;
+}
+
+
+#part-one, #part-two, #offer-refused, #offer-accepted, #pressKey{
+    width: 40%;
+    margin: 50px;
+    color: white;
+    display: inline-block;
+}
+
+
+img{
+    width: 800px;
+    display: block;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#part-one, #part-two, #offer-refused, #offer-accepted, #pressKey{
+    border: 2px solid red;
+    border-radius: 20px;
+    margin: 40px;
+    padding: 20px;
+    max-height: 180px;
+    background-color: red;
+    display: block;
+    justify-content: center;   align-items: flex-start;
+}
+
+#select{
+    border: 2px black solid;
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    color: red;
+    margin-bottom: 50px;
+}
+
+#video{
+    display: block;
+}
+
+#offer-accepted, #offer-refused, #part-two, #video, #witcher, #video, #pressKey{
+    display: none;
+}
+
+.active{
+    display:flex;
+}
+
+
+

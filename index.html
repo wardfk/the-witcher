@@ -1,0 +1,54 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script type="text/javascript" src="scripts/script1.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Toss a coin to your witcher</h1>
+    </header>
+    <main id="main">
+        <div id="part-one">
+            <p id="first-question">
+                I'll carry on killing monsters in the ruins of this world until some monsters kills me. How can I help you?
+            </p>
+            <select name="select" id="select">
+                <option value="">-- Select an option--</option>
+                <option value="100">€100 -- The victim will not suffer.</option>
+                <option value="250">€250 -- First he's gonne scream, than he's gonne die.</option>
+                <option value="400">€400 -- Your chosen person will be crying a lot.</option>
+                <option value="500">€500 -- This way I like the most. He's gonne suffering a lot...</option>
+            </select>
+        </div>
+        <div id="part-two">
+                <p>Are you willing to pay full price or do you want to be cheap?</p>
+                <form id="offer-container">
+                    <input type="number" placeholder="What's your offer?" id="number" value="">
+                    <input type="submit" placeholder="Send" name="offer" id="send" value="Send">
+                </form>
+        </div>
+        <div id="offer-refused">
+            <p>I need more money</p>
+        </div>
+        <div id="offer-accepted">
+            <p>We have an agreement.</p>
+        </div>
+        <div id="pressKey">
+            <p>
+                If you like to coninue, press 'W'
+            </p>
+        </div>
+        <div id="video">   
+                <iframe id="player" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="560.7" height="315" type="text/html" src="https://www.youtube.com/embed/kPrFGwG3RHA?autoplay=1&fs=1&iv_load_policy=3&showinfo=0&controls=1&rel=0&loop=1&playlist=kPrFGwG3RHA&cc_load_policy=0&start=0&end=0"></iframe>
+        </div> 
+        <div class="witcher">
+            <img src="assets/the_witcher.jpg" alt="">
+        </div> 
+    
+    </main>
+    
+</html>
